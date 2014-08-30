@@ -3314,13 +3314,19 @@ input[type="radio"], input[type="checkbox"] {
     margin-top: 60px;
 }
 .marcas-home {
-    padding: 30px;
+    padding: 20px 10px; 
 }
 
 .marcas-home img {
     padding: 0;
     width: 100%;
 
+}
+
+@media(min-width:768px) {
+   .marcas-home {
+        padding: 30px; 
+    } 
 }
 
 @media(min-width:1120px) {
