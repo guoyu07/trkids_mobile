@@ -3391,8 +3391,16 @@ input[type="radio"], input[type="checkbox"] {
 }
 .assine-home a {
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
 }
+
+@media(min-width:768px) {
+    .assine-home a {
+        color: #fff;
+        font-size: 24px;
+    }
+}    
+
 .circle {
     width: 170px;
     height: 170px;
@@ -3457,9 +3465,10 @@ input[type="radio"], input[type="checkbox"] {
     padding-bottom: 50px;
 }
 .produtos h3 {
-    font-size: 30px;
+    font-size: 22px;
     color: #4091fa;
 }
+
 .produtos .produto {
     border: 1px solid #7ce4e8;
     width: 263px;
@@ -3532,17 +3541,23 @@ span.tag1>span, span.tag2>span, span.tag3>span, span.tag100>span, span.tag200>sp
 }
 .produtos .ver-todos a {
     background-color: #4091fa;
-    padding: 10px 50px;
+    padding: 10px 30px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 5px;
 }
 
 @media(min-width:600px) {
+    .produtos h3 {
+        font-size: 25px;
+    }
     .produtos .ver-todos a {       
         font-size: 24px;
+        padding: 10px 50px;
     }
 }
+
+
 #footer {
     position: absolute;
     bottom: 0;
