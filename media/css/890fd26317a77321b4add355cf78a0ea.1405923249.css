@@ -3310,21 +3310,49 @@ input[type="radio"], input[type="checkbox"] {
 .marcas-home {
     padding: 30px;
 }
+
 .marcas-home img {
-    padding: 0 6%;
+    padding: 0;
     width: 100%;
+
+}
+
+@media(min-width:1120px) {
+
+   .marcas-home {
+        padding: 30px;
+    } 
+    
+    .marcas-home img {
+        padding: 0 6%;
+        width: auto;
+        height: auto;
+    }
 }
 .descricao-home {
     padding: 18px;
 }
 .descricao-home h3 {
     color: #f16651;
-    font-size: 30px;
+    font-size: 25px;
 }
+
 .descricao-home p {
     color: #666;
-    font-size: 20px;
+    font-size: 18px;
 }
+
+@media(min-width:768px) {
+    .descricao-home h3 {
+        font-size: 30px;
+    }
+    .descricao-home p {
+        color: #666;
+        font-size: 20px;
+    }
+}
+
+
 .baloes-home {
     background-color: #f16651;
     padding: 20px;
@@ -3334,11 +3362,17 @@ input[type="radio"], input[type="checkbox"] {
 }
 .baloes-home .texto {
     color: #fff;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 250px;
-    margin-top: 30px;
     font-size: 16px;
 }
+
+@media(min-width:768px) {
+    .baloes-home .texto {
+        margin: 30px auto 0 auto;
+    }
+}
+
 .assine-home {
     background-color: #9e4080;
     padding: 5px;
