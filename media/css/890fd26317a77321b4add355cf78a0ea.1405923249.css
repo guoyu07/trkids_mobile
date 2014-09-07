@@ -3019,7 +3019,7 @@ input[type="radio"], input[type="checkbox"] {
     }
 
     #carousel-content .inner {
-        width: 1500px;
+        width: 1502px;
     }
 
     #carousel-content .inner img {
@@ -3061,7 +3061,7 @@ input[type="radio"], input[type="checkbox"] {
     }
 
     #carousel-content .inner {
-        width: 1200px;
+        width: 1202px;
     }
 
     #carousel-content .inner img {
@@ -3231,6 +3231,8 @@ input[type="radio"], input[type="checkbox"] {
 .header.mobile-only .user-actions-out{
     margin-top: 5px;
 }
+
+
 
 @media(max-width:400px) {
     #header .container{
@@ -3696,6 +3698,7 @@ span.tag1>span, span.tag2>span, span.tag3>span, span.tag100>span, span.tag200>sp
     }
 
 }
+
 
 #footer .container {
     /*max-width: 970px;*/
