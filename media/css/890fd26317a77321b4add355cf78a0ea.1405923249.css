@@ -3181,7 +3181,7 @@ input[type="radio"], input[type="checkbox"] {
 
 
 .header.mobile-only .search {
-    width: 200px;
+    width: 194px;
     font-size: 10px;
 }
 
@@ -3234,7 +3234,7 @@ input[type="radio"], input[type="checkbox"] {
 
 
 
-@media(max-width:400px) {
+@media(max-width:479px) {
     #header .container{
        padding: 0px;
     }
@@ -3521,6 +3521,8 @@ input[type="radio"], input[type="checkbox"] {
 
 .produtos {
     padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
 }
 .produtos h3 {
     font-size: 22px;
@@ -3760,7 +3762,19 @@ span.tag1>span, span.tag2>span, span.tag3>span, span.tag100>span, span.tag200>sp
     left: 50%}
 .sidebar-offcanvas {
     top: 0;
-    widthe: 50%}
+    widthe: 50%
+}
+.sidebar-offcanvas.desktop-only{
+        display: none;
+        visibility: visible;
+    }
+
+@media(min-width:768px) {
+    .sidebar-offcanvas.desktop-only{
+        display: block;
+        visibility: visible;
+    }
+}
 .product-view {
     margin-left: auto;
     margin-right: auto;
